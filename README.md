@@ -1,9 +1,18 @@
 # 💻Tribute Page💻
+<<<<<<< HEAD
+=======
+_____
+>>>>>>> 0d07f8f20c589a080a82a528df268f3b29a589f5
 
 ## 👀 READ ME
 
 Exercise 1/6 for the course application 
 
+<<<<<<< HEAD
+=======
+_____
+
+>>>>>>> 0d07f8f20c589a080a82a528df268f3b29a589f5
 ### 📋Requirements
 1. The page has a title which informs the user what the site is about
 2. The page has a logical layout and clear structure
