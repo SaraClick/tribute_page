@@ -12,67 +12,108 @@
 <body>
 
     <header>
-        <h1>Mambo The Dog</h1>
-        <h3>Tribute page to Mambo, a small dog with a big dog's attitude</h3>
-        <div class="nav_bar_icons">
-            <nav>
+        <div class="box-titles">
+            <h1>Mambo The Dog</h1>
+            <h3>Tribute page to Mambo, a small dog with a big dog's attitude</h3>
+        </div>
+        <div class="grid_container">
+            <div class="grid_item">
                 <a href="#info" class="pagelogo"><img src="img_logos\icon_info.png" class="nav_icon" alt="info icon" title="About Mambo"></a>
+            </div>
+            <div class="grid_item">
                 <a href="#pics" class="pagelogo"><img src="img_logos\icon_pics.png" class="nav_icon" alt="photo icon" title="Photos"></a>
+            </div>
+            <div class="grid_item">
                 <a href="#likes" class="pagelogo"><img src="img_logos\icon_likes.png" class="nav_icon" alt="likes icon" title="Likes"></a>
+            </div>
+            <div class="grid_item">
                 <a href="#dislikes" class="pagelogo"><img src="img_logos\icon_dislikes.png" class="nav_icon" alt="dislikes icon" title="Dislikes"></a>
-            </nav>
+            </div>
         </div>
     </header>
 
     <main>
-        <div id="info">
-            <h2><img src="img_logos\icon_info.png" class="title_icon" alt="info icon" title="About Mambo">About Mambo</h2>
-            <p>Lorem ipsum dolor sit amet, consectetur adipiscing elit, sed do eiusmod tempor incididunt ut labore et dolore magna aliqua. Ut enim ad minim veniam, quis nostrud exercitation ullamco laboris nisi ut aliquip ex ea commodo consequat. Duis aute
-                irure dolor in reprehenderit in voluptate velit esse cillum dolore eu fugiat nulla pariatur. Excepteur sint occaecat cupidatat non proident, sunt in culpa qui officia deserunt mollit anim id est laborum.</p>
-            <a href="#top"><img src="img_logos\icon_up.png" class="up_icon" alt="up icon" title="Take me to Top"></a>
-
+        <div id="info" class="tribute_section">
+            <h2 class="section_title"><img src="img_logos\icon_info.png" class="title_icon" alt="info icon" title="About Mambo">About Mambo</h2>
+            <div class="section-content">
+                <p>Mambo is a 7 year old rescued miniature pinscher our family adopted when he was a little puppy. Although he's a small dog, he has the character and attitude of a big dog (we think he believies he's a doberman...!) and is super special
+                    with "his" things, he will move his bed wherever he fancies in the house always taking the best spots! He loves the sand and green grass, will always be near you if there is food and he's always ready for a nap.</p>
+                <br>
+                <p>If you want to know more about pinschers ans their character, <a href="https://www.thesprucepets.com/breed-profile-miniature-pinscher-1117981" target="_blank">click here!</a></p>
+            </div>
         </div>
 
-        <div id="pics">
-            <h2><img src="img_logos\icon_pics.png" class="title_icon" alt="photo icon" title="Photos">Pictures</h2>
+        <div id="pics" class="tribute_section">
+            <h2 class="section_title"><img src="img_logos\icon_pics.png" class="title_icon" alt="photo icon" title="Photos">Pictures</h2>
+            <div class="section-content">
+                <div class="pic_container">
+                    <div class="pic">
+                        <a target="_blank" href="img_logos\pic_profile.jpg">
+                            <img src="img_logos\pic_profile.jpg" class="photo" alt="Photo Portrait Mambo" title="Portrait" width="600" height="400">
+                        </a>
+                        <div class="pic_text">Hello! Did you say food!?</div>
+                    </div>
+                </div>
 
-            <a href="#top"><img src="img_logos\icon_up.png" class="up_icon" alt="up icon" title="Take me to Top"></a>
+                <div class="pic_container">
+                    <div class="pic">
+                        <a target="_blank" href="img_logos\pic_beach.jpg">
+                            <img src="img_logos\pic_beach.jpg" class="photo" alt="Photo at the beach" title="At the beach" width="600" height="400">
+                        </a>
+                        <div class="pic_text">Loving that beach vibe</div>
+                    </div>
+                </div>
 
-        </div>
+                <div class="pic_container">
+                    <div class="pic">
+                        <a target="_blank" href="img_logos\pic_sleep.jpg">
+                            <img src="img_logos\pic_sleep.jpg" class="photo" alt="Photo sleeping" title="K.O." width="600" height="400">
+                        </a>
+                        <div class="pic_text">In need of battery recharge!</div>
+                    </div>
+                </div>
 
-        <div id="likes">
-            <h2><img src="img_logos\icon_likes.png" class="title_icon" alt="likes icon" title="Likes">Things Mambo Likes</h2>
-            <ul>
-                <li>Tennis balls.</li>
-                <li>Play in the beach.</li>
-                <li>Eating fish.</li>
-                <li>Travelling by car.</li>
-                <li>Confronting dogs that are at least 3 times bigger than him.</li>
-            </ul>
-            <a href="#top"><img src="img_logos\icon_up.png" class="up_icon" alt="up icon" title="Take me to Top"></a>
-        </div>
+                <div class="clearfix"></div>
 
-        <div id="dislikes">
-            <h2><img src="img_logos\icon_dislikes.png" class="title_icon" alt="dislikes icon" title="Dislikes">Things Mambo Dislikes</h2>
-            <ul>
-                <li>Cats... impossible friendship!</li>
-                <li>Getting wet.</li>
-                <li>Going out when it's windy.</li>
-                <li>Going to the vet.</li>
-            </ul>
-            <a href="#top"><img src="img_logos\icon_up.png" class="up_icon" alt="up icon" title="Take me to Top"></a>
-        </div>
+                <div id="likes" class="tribute_section">
+                    <h2 class="section_title"><img src="img_logos\icon_likes.png" class="title_icon" alt="likes icon" title="Likes">Things Mambo Likes</h2>
+                    <div class="section-content">
+                        <ul>
+                            <li>Tennis balls.</li>
+                            <li>Play in the beach.</li>
+                            <li>Eating fish.</li>
+                            <li>Travelling by car.</li>
+                            <li>Confronting dogs that are at least 3 times bigger than him.</li>
+                        </ul>
+                    </div>
+                </div>
+
+                <div id="dislikes" class="tribute_section">
+                    <h2 class="section_title"><img src="img_logos\icon_dislikes.png" class="title_icon" alt="dislikes icon" title="Dislikes">Things Mambo Dislikes</h2>
+                    <div class="section-content">
+                        <ul>
+                            <li>Cats... impossible friendship!</li>
+                            <li>Getting wet.</li>
+                            <li>Going out when it's windy.</li>
+                            <li>Going to the vet.</li>
+                        </ul>
+                    </div>
+                </div>
     </main>
 
 </body>
 
 <footer>
-    <p>
-        Mambo the Dog | Tribute Page: exercise 1/6 application | Sara E. Bonnin Richaud
-    </p>
-
-    <a href="#top"><img src="img_logos\icon_up.png" class="up_icon" alt="up icon" title="Take me to Top"></a>
-
+    <div class="footer-container">
+        <div class="footer-text">
+            <p>
+                Mambo the Dog | Tribute Page: exercise 1/6 application | Sara E. Bonnin Richaud
+            </p>
+        </div>
+        <div class="footer-arrow">
+            <a href="#top"><img src="img_logos\icon_up.png" class="up_icon" alt="up icon" title="Back to Top"></a>
+        </div>
+    </div>
 </footer>
 
 </html>
