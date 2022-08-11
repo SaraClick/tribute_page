@@ -20,6 +20,7 @@ main {
 h1 {
     color: cadetblue;
     font-size: 50px;
+    margin: 15px;
 }
 
 h2 {
@@ -49,6 +50,9 @@ footer {
     height: 40px;
     flex-flow: column wrap;
     align-content: space-between;
+    padding-left: 30px;
+    padding-right: 30px;
+    padding-top: 5px;
 }
 
 .footer-container>div {
@@ -68,7 +72,7 @@ footer {
     display: absolute;
     align-content: center;
     text-align: center;
-    padding: 20px
+    padding: 30px
 }
 
 .box-dog {
@@ -83,20 +87,26 @@ footer {
 /**Navigation grid**/
 
 .grid_container {
+    display: flex;
+    justify-content: center;
+}
+
+.grid-subcontainer {
     display: grid;
     grid-template-columns: 1fr 1fr 1fr 1fr;
     grid-gap: 20px;
-    padding-left: 20%;
-    padding-right: 20%;
 }
 
 .grid_item {
     display: flex;
     justify-content: center;
+    background-color: rgb(194, 236, 237);
+    border-radius: 30%;
 }
 
 .grid_container .grid_item img {
     max-width: 60px;
+    padding: 5px;
 }
 
 
@@ -127,7 +137,7 @@ footer {
 }
 
 .pic {
-    border: 1px solid #ccc;
+    border: 1px solid rgb(52, 106, 107);
 }
 
 .pic img {
